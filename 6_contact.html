@@ -20,7 +20,7 @@
     <h4>PLACE YOUR BOOKING HERE!!!</h4>
 
     <div class="mCont">
-        <form action="form/table.php" method="post" class="contactForm table">
+        <form action="//formspree.io/your@email.com" method="post" class="contactForm table">
             <fieldset>
                 <label class="q1">
                     Year
@@ -64,6 +64,7 @@
                 </div>
 
                 <div class="clearfix"></div>
+                <input type="text" name="_gotcha" style="display:none" />
             </fieldset>
 
         </form>
@@ -175,7 +176,7 @@
 
     <div class="box7">
         <div class="cn1 contact">
-            <form id="contactForm" class="contactForm" method="post" action="form/send.php">
+            <form id="contactForm" class="contactForm" method="post" action="//formspree.io/a.haberman25@gmail.com">
                 <fieldset>
                     <label>Name</label>
                     <input name="name" required type="text">
@@ -185,6 +186,7 @@
                     <input name="website" type="text">
                     <label>Your Message</label>
                     <textarea name="message" required></textarea>
+                    <input type="text" name="_gotcha" style="display:none" />
                 </fieldset>
                 <input type="submit" value="submit" id="sendIt">
             </form>
